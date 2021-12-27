@@ -1,0 +1,279 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    width: 199px;
+}
+li{
+    list-style: none;
+}
+#header_icon i.fas.fa-envelope, i.fas.fa-phone-alt {
+    padding: 12px 16px;
+    font-size: 30px;
+    background: #2d72bb;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* nav */
+nav div#navbarSupportedContent {
+    padding-bottom: 7px;
+}
+
+nav li.nav-item {
+    border-right: 1px solid;
+}
+
+nav a {
+    color: #403b3bf0;
+    font-size: 17px;
+}
+
+.navbar-nav .nav-link .nav-link:hover {
+    color: #f88327;
+}
+nav ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    line-height: 2px;
+}
+h1.fw-bold {
+    font-weight: 700;
+    color: #1e2452;
+    line-height: 44px;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+li.fw-bold {
+    font-weight: 700;
+    list-style: none;
+    color: #1e2452;
+    line-height: 23px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.image-overly {position: relative;}
+
+.overlay {
+    position: absolute;
+    top: -10px;
+    color: #fff;
+    left: -10px;
+    background: #3072bb;
+    font-weight: bold;
+    padding: 15px 38px;
+    font-size: 29px;
+    border-radius: 5px;
+}
+
+/* main image section style  */
+section#main-image-section {
+    background: #e9f1fa;
+}
+div#main_image {
+    position: relative;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: -10px;
+    background: #3072bb;
+    width: 59%;
+    color: #fff;
+    left: -10px;
+    font-size: 9px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.overlay-2 h1 {
+    font-size: 26px;
+}
+
+.overlay-2 li {
+    color: #fff;
+}
+div#main_image_second {
+    position: relative;
+}
+
+.overlay-3 {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    background: #3072bb;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+}
+.image-overly img {
+    border-radius: 5px;
+}
+
+div#main_image_second img {
+    border-radius: 5px;
+}
+div#virtual_demo_1st h2 {
+    font-size: 24px;
+    font-weight: bold;
+    background: #3072bb;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 82%;
+}
+.overlay-3 h1 {
+    font-size: 26px;
+}
+
+div#main_image img {
+    border-radius: 5px;
+}
+
+/* testemonial style  */
+section#testimonials {
+    background: #e9f1fa;
+}
+
+/* post  */
+a.btn.recent_blog_btn {
+    transform: translateY(58px);
+    transition: 0.3s;
+}
+.d-flex.justify-content-between.footer-end {
+    color: #bfbcbc;
+}
+.socal-icon i {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+section#recent_post .card {
+    overflow: hidden;
+}
+section#recent_post .card:hover a.btn.recent_blog_btn{
+    transform: translateY(8px);
+}
+
+
+footer{
+    background-color: #1e2452;
+    color: #FFF;
+}
+
+/* footer  */
+.col-md-3.footer-1st img {
+    width: 151px;
+}
+
+.col-md-3.footer-1st p {
+    color: #bfbcbc;
+}
+
+.col-md-3.footer-1st h2 {
+    font-size: 22px;
+}
+
+.col-md-3.footer-1st li i {
+    color: #4df789;
+    padding: 5px 5px;
+}
+
+.col-md-3.footer-1st li {
+    color: #bfbcbc;
+}
+
+.col-md-6.footer-second li {
+    color: #bfbcbc;
+    text-decoration: none;
+    padding: 7px 2px;
+}
+
+.col-md-3.footer-third li {
+    color: #bfbcbc;
+    text-decoration: none;
+    padding: 7px 2px;
+}
+.col-md-6.footer-second h2 {
+    font-size: 25px;
+}
+
+.col-md-3.footer-third h2 {
+    font-size: 25px;
+}
+
+/* versual effect  */
+/* #hoverToshow{
+    display: none;
+}
+#id1:hover #image_show{
+    display: block;
+} */
+video {
+    max-width: 100%;
+    height: auto;
+  }
+/* media query  */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:320px ) and (max-width: 768px )  {
+    div#header_icon {
+        display: none;
+    }
+    section#header {
+        position: relative;
+    }
+   
+    
+    nav.navbar.navbar-expand-lg.navbar-light {
+        position: absolute;
+        z-index: 2;
+        top: 33px;
+        right: 9px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 480px) {
+    div#header_icon {
+        display: none;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    div#header_icon {
+        display: none;
+    }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
